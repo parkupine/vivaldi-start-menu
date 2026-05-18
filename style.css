@@ -23,7 +23,7 @@ a {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    font-size: 4vmax;
+    font-size: 6vmax;
     display: flex;
     flex-direction: column;    /* stacks  links vertically */
     align-items: flex-end;
