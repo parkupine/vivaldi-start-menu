@@ -36,6 +36,8 @@ a {
     color: white;
 }
 
+a:hover {color: pink;}
+
 .links {
     position: fixed;
     bottom: 30px;
@@ -49,4 +51,11 @@ a {
 
 img {
     filter: blur(5px);
+}
+
+@media (min-aspect-ratio: 1 / 1) {
+    a {
+    text-decoration: none;
+    font-size: 30px;
+}
 }
