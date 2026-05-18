@@ -1,0 +1,31 @@
+body {
+    
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: 0;
+    position: relative;
+}
+
+h1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 4vmax;
+    display: flex;
+    flex-direction: column;    /* stacks  links vertically */
+    align-items: flex-end;
+    gap: 10px;
+}
