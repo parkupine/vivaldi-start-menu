@@ -42,7 +42,7 @@ a:hover {color: pink;}
     position: fixed;
     bottom: 30px;
     right: 30px;
-    font-size: 2vmax;
+    font-size: 2.5vmax;
     display: flex;
     flex-direction: column;    /* stacks  links vertically */
     align-items: flex-end;
