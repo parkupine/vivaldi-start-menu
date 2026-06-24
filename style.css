@@ -53,6 +53,34 @@ img {
     filter: blur(5px);
 }
 
+.searchthingy {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    
+    /* Forces the component to sit in the exact vertical center of the screen */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-input {
+    width: 90vw;            /* Responsive width for smaller windows */
+    max-width: 500px;       /* Keeps it looking clean on wide desktop screens */
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    backdrop-filter: blur(5px);
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 @media (min-aspect-ratio: 1 / 1) {
     a {
     text-decoration: none;
