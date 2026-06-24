@@ -7,7 +7,7 @@ body::before {
     height: 100%;
     z-index: -1; 
 
-    background-image: url('images/blurrywallpaper.png');
+    background-image: url('images/wallpaper.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
